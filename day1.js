@@ -15,5 +15,26 @@ function myNew() {
 
 function myNewStudy() {
   let obj = {};
-
+  let constructor = [].shift.call(arguments);
+  obj.__proto__ = constructor.prototype;
+  let result = constructor.apply(obj, arguments);
+  return typeof result === 'object' ? result : obj;
 }
+
+// 异或方法交换两个数
+function exchange(a, b) {
+  // let a = 1,b=2;
+  // a ^= b;
+  // b ^= a;
+  // a ^= b;
+  // a=？ b=？
+
+  a ^= b;
+  b ^= a;
+  a ^= b;
+  return [a, b];
+}
+
+// 2^2 ？
+// 2^1 ？
+// 2^2 + 2^1 ?

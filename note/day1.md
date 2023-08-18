@@ -2,15 +2,28 @@
 
 - 手写 new 操作符
 - Map 和 Object 的区别
+  - https://www.jianshu.com/p/94cf51649517
 - Map 和 WeakMap 的区别，WeakMap 的 key 为什么只能是对象
+  - https://zh.javascript.info/weakmap-weakset#weakmap
 - Set 是什么，有什么特点
+  - Set 对象允许你存储任何类型的唯一值，无论是原始值或者是对象引用。它可以去重
 - WeakSet 是什么，有什么特点
+  - https://zh.javascript.info/weakmap-weakset#weakset
 - Symbol 是什么，有什么特点
+  - Symbol 是一种基本数据类型，可以通过 Symbol 函数生成，Symbol 函数可以接受一个字符串作为参数，表示对 Symbol 实例的描述，主要用于解决属性名冲突的问题
+  - https://zh.javascript.info/symbol
 - Generator 是什么，有什么特点
+  - https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Generator
+  - https://zh.javascript.info/generators#generator-han-shu
 - Promise 是什么，有什么特点
 - async/await 是什么，有什么特点
 - Reflect 是什么，有什么特点
+  - https://zh.javascript.info/proxy#proxy
 - Proxy 是什么，有什么特点
+  - https://zh.javascript.info/proxy#proxy
 - JS 加载 defer 和 async 的区别
+  - defer 是在 HTML 解析完之后才会执行，async 是在加载完之后立即执行
 - 什么是类数组，手写一个类数组
+  - 类数组是一个拥有 length 属性和若干索引属性的对象
 - 处理类数组的方法有哪些
+  - 
