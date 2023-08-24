@@ -1,0 +1,13 @@
+- Object.defineProperty 和 Proxy 的区别
+- MVC MVVM MVP 的区别
+- computed 和 watch 的区别
+- Methods 和 computed 的区别
+- solt 和 template 的区别
+  - 具名插槽
+  - 作用域插槽
+  - 默认插槽
+- data 为什么是一个函数
+- keep-alive 的作用 它的底层原理是什么
+- data 为什么是个函数
+- LRU
+- nextTick

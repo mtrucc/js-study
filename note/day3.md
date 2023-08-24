@@ -136,3 +136,5 @@ let test = {
 
 
 - 27. ajax、axios、fetch的区别
+- 真的理解promise吗
+- 

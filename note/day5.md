@@ -1,0 +1,24 @@
+- vue 封装的数组方法，手写一下
+- vue data 属性值发生变化，会不会立即更新
+- vue watch 监听到属性值发生变化，是怎么处理的
+- mixin 的原理
+- extends 的原理
+- 自定义指令的原理和用法
+- 什么是高阶函数，什么是高阶组件
+- v-if v-for 为什么不能连用
+- v-for 事件代理
+- 什么是事件代理
+- 手写 v-for
+- Object.freeze 的作用
+- 手写 EventBus
+- provide inject 的原理
+- vue parent 和 children 之间的通信
+- $attrs 和 $listeners 的作用
+- 手写 vue router
+- 手写 vuex
+- vuex 是怎么全局注册的
+- redux 和 vuex 的区别
+- composition api 和 vue2 的区别
+- 虚拟dom
+- 手写 diff
+
