@@ -38,3 +38,14 @@ function exchange(a, b) {
 // 2^2 ？
 // 2^1 ？
 // 2^2 + 2^1 ?
+
+// 测试 Proxy
+
+let a = {}
+
+let p = new Proxy(a, {
+  get: (target, property, receiver) => {
+    console.log( target, property, receiver)
+    return 2
+  }
+})
