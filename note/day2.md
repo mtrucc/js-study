@@ -7,8 +7,8 @@
 - [x] 实现call函数
 - [x] 实现apply函数
 - [x] 实现bind函数
-模拟实现Object.create函数
-实现JS的继承
+- [x] 模拟实现Object.create函数
+- [x] 实现JS的继承 看** 不看了
 实现JSON.stringify
 实现JSON.parse
 实现Promise.resolve方法
