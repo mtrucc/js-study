@@ -478,3 +478,10 @@ Function.prototype.studyBind = function (context) {
     return that.apply(context, args.concat(...arguments))
   }
 }
+
+// 手写 Object.create
+function studyCreate(obj) {
+  const F = () => {}
+  F.prototype = obj
+  return new F()
+}
