@@ -1,11 +1,11 @@
 有哪些手写题
-实现防抖 (debounce) 函数
-实现节流 (throttle) 函数
-实现深拷贝函数
-实现instanceof函数
-模拟实现new操作符
-实现call函数
-实现apply函数
+- [x] 实现防抖 (debounce) 函数
+- [x] 实现节流 (throttle) 函数
+- [x] 实现深拷贝函数
+- [x] 实现instanceof函数
+- [x] 模拟实现new操作符
+- [x] 实现call函数
+- [x] 实现apply函数
 实现bind函数
 模拟实现Object.create函数
 实现JS的继承
