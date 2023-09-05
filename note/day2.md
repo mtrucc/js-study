@@ -6,7 +6,7 @@
 - [x] 模拟实现new操作符
 - [x] 实现call函数
 - [x] 实现apply函数
-实现bind函数
+- [x] 实现bind函数
 模拟实现Object.create函数
 实现JS的继承
 实现JSON.stringify

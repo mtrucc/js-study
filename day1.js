@@ -16,10 +16,19 @@ function myNew() {
 function myNewStudy() {
   let obj = {};
   let constructor = [].shift.call(arguments);
+  console.log(constructor)
   obj.__proto__ = constructor.prototype;
   let result = constructor.apply(obj, arguments);
   return typeof result === 'object' ? result : obj;
 }
+
+// 测试用例
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+let person = myNewStudy(Person, '张三', 18);
 
 // 异或方法交换两个数
 function exchange(a, b) {
